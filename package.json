@@ -458,13 +458,13 @@
 		"onCommand:azureCognitiveSearch.deleteSearchService"
 	],
 	"dependencies": {
-		"axios": "1.7.9",
+		"axios": "1.8.1",
 		"fs-extra": "11.3.0"
 	},
 	"devDependencies": {
 		"@types/fs-extra": "11.0.4",
 		"@types/glob": "8.1.0",
-		"@types/node": "22.13.4",
+		"@types/node": "22.13.9",
 		"file-loader": "6.2.0",
 		"glob": "11.0.1",
 		"ts-loader": "9.5.2"
