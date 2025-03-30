@@ -1,12 +1,35 @@
 {
 	"name": "@codeeditorland/azurecognitivesearch",
 	"displayName": "Azure Cognitive Search",
+	"version": "0.0.1",
+	"private": false,
 	"description": "Manage your Azure Cognitive Search services, create indexes, add documents, search, and more.",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/LandAzureCognitiveSearch#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/LandAzureCognitiveSearch/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/LandAzureCognitiveSearch.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "main",
 	"scripts": {
 		"all": "npm i && npm run lint && npm test",
 		"build": "tsc",
 		"compile": "tsc -watch",
+		"prepublishOnly": "Build 'Source/**/*.ts'",
 		"webpack": "npm run build && gulp webpack-dev",
 		"webpack-prod": "npm run build && gulp webpack-prod",
 		"webpack-profile": "webpack --profile --json --mode production > webpack-stats.json && echo Use http://webpack.github.io/analyse to analyze the stats"
@@ -462,6 +485,7 @@
 		"fs-extra": "11.3.0"
 	},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@types/fs-extra": "11.0.4",
 		"@types/glob": "8.1.0",
 		"@types/node": "22.13.14",
@@ -472,6 +496,9 @@
 	"extensionDependencies": [
 		"ms-vscode.azure-account"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"icon": "resources/AzureSearch.png",
 	"galleryBanner": {
 		"color": "#3c3c3c",
