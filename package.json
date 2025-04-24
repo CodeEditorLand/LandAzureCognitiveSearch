@@ -490,7 +490,7 @@
 		"@types/glob": "8.1.0",
 		"@types/node": "22.14.1",
 		"file-loader": "6.2.0",
-		"glob": "11.0.1",
+		"glob": "11.0.2",
 		"ts-loader": "9.5.2"
 	},
 	"extensionDependencies": [
